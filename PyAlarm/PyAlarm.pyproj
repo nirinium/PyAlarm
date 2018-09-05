@@ -26,6 +26,9 @@
   <ItemGroup>
     <Compile Include="PersonalPyAlarm.py" />
     <Compile Include="PyAlarm.py" />
+    <Compile Include="pyalarmcron.py">
+      <Publish>False</Publish>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
